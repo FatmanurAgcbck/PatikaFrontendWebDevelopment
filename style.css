@@ -1,0 +1,61 @@
+body{
+    background-color: #6C4E31 ;
+    font-family: 'Times New Roman', Times, serif;
+    color: #FFEAC5;
+    font-size: 20px;
+}
+/*fotograf boyut - konum*/
+img{
+    float: left;
+    width: 500px;
+    margin-top: 20px;
+}
+/*süre kisi ortalama*/
+.about ul{
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    
+}
+.about li{
+    display: inline;
+    margin-right: 10px;
+    color: #e1a96e ;
+    text-decoration: underline;
+}
+/*Malzemeler kısmı ortalama*/
+#recipe ul{
+    margin-top: 50px;
+    margin-left: 600px;
+    list-style-type: circle;
+    
+}
+#recipe li{
+    padding: 1px;
+}
+/*başlıklar konum font */
+h3{
+    position: relative;
+    left: 100px;
+    color: #c69159;
+    font-size: 25px;
+    margin-top: 70px;
+    
+}
+/*Yapılış Kısmı konum ve maddeler arası boşluklar*/
+#construction ul{
+    margin-left: 900px;
+}
+
+#construction li{
+    padding: 1px;
+}
+
+h2{
+    float: right;
+    font-family: "Playwrite TZ Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
