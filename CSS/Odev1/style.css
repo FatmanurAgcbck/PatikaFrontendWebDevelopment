@@ -1,0 +1,73 @@
+/*Sayfa layout*/
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+}
+h1{
+    color: #257180;
+}
+
+/*Üst Menü başlangıç*/
+nav ul{
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+nav ul li{
+    display: inline;
+}
+/*Üst Menü bitiş*/
+/*Sayfa layout bitiş*/
+
+/*İndex Sayfası içerik bölümü başlangıç*/
+header h2{
+    color: #CB6040;
+}
+
+.icerik ul{
+    list-style-position: inside
+}
+
+.icerik h4{
+    color: #FD8B51;
+}
+/*İndex Sayfası içerik bölümü bitiş*/
+
+/*ürün sayfası içerik bölümü başlangıç*/
+.urun-icerik ol li img{
+    width: 300px;
+}
+
+.urun-icerik ol li{
+    padding-top: 30px;
+    list-style-position: inside;
+}
+
+.urun-icerik p{
+    font-weight: 700;
+}
+/*ürün sayfası içerik bölümü bitiş*/
+
+/*hakkımızda sayfası içerik bölümü başlangıç*/
+
+.about-us {
+    text-align: left;
+    margin: 0;
+}
+
+.about-us h3{
+    color: #D55B3E;
+}
+
+#soz {
+    font-family: "Playwrite NL Guides", cursive;
+    font-weight: 400;
+    font-style: normal;
+    padding: 50px;
+    float: right;
+}
